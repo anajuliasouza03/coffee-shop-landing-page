@@ -1,3 +1,4 @@
+import { Cardapio } from "@/components/Cardapio";
 import { Escolha } from "@/components/Escolha";
 import { Hero } from "@/components/Hero";
 
@@ -6,8 +7,8 @@ export default function Page() {
     <div>
       <Hero />
       <Escolha />
+      <Cardapio />
       {/*
-        <Cardapio />
         <Depoimentos />
         <Formulario /> 
         <Footer />
