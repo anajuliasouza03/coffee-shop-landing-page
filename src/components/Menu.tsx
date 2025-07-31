@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 export function Menu() {
   return (
-    <div className=" overflow-hidden top-0 left-0 w-full z-50 bg-[#D9BB98] flex justify-around py-2">
+    <div className="  overflow-hidden top-0 left-0 w-full z-50 bg-[#D9BB98] flex justify-around py-2">
       <Image src={logo} alt="logo solace cafeteria" width={150} />
       <div className=" gap-4 items-center hidden md:flex">
         <div className="flex gap-6">

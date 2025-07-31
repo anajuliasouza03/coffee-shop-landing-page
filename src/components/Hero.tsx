@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <div className="bg-[#E5CFB5] md:flex  justify-center min-h-[600px] md:min-h-[800px] pt-[10px] md:pt-0">
+    <div className="bg-[#E5CFB5] md:flex  justify-center min-h-[600px] md:min-h-[600px] pt-[10px] md:pt-0">
       <div className=" pt-10 my-auto flex md:hidden">
         <Image
           src={imghero}
