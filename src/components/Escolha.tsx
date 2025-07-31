@@ -3,13 +3,15 @@ import { Video } from "./Video";
 
 export function Escolha() {
   return (
-    <div className="flex justify-center min-h-screen bg-[#FAFBFD]">
-      <div className="m-10 my-auto">
+    <div className=" py-10 md:flex min-h-[800px] bg-[#FAFBFD] md:px-20">
+      <div className="m-10 my-auto mx-auto md:pr-10">
         <Video />
       </div>
-      <div className="text-[#3E2723] flex flex-col justify-center">
-        <h1 className="text-[36px]">Por que somos a melhor escolha</h1>
-        <div className="flex flex-col gap-5">
+      <div className="text-[#3E2723] mx-10 md:mx-0  flex flex-col justify-center">
+        <h1 className="text-[36px] text-center md:text-start">
+          Por que somos a melhor escolha
+        </h1>
+        <div className="flex md:flex-col gap-5 pt-10">
           <div className="w-[80%]">
             <div className="flex gap-2">
               <Coffee width={14} />
