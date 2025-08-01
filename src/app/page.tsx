@@ -1,4 +1,5 @@
 import { Cardapio } from "@/components/Cardapio";
+import { Contato } from "@/components/Contato";
 import { Depoimentos } from "@/components/Depoimentos";
 import { Escolha } from "@/components/Escolha";
 import { Hero } from "@/components/Hero";
@@ -10,9 +11,10 @@ export default function Page() {
       <Escolha />
       <Cardapio />
       <Depoimentos />
+      <Contato />
 
       {/*
-        <Formulario /> 
+        
         <Footer />
       */}
     </div>
