@@ -27,6 +27,7 @@ export function FormContact() {
       name: "",
       email: "",
       message: "",
+      phone: "",
     },
   });
 
@@ -100,7 +101,7 @@ export function FormContact() {
                 </FormItem>
               )}
             />
-            <Button className="bg-[#3E2723]" type="button">
+            <Button className="bg-[#3E2723] hover:bg-[#80605a]" type="submit">
               Enviar Mensagem <ArrowRight width={5} />
             </Button>
           </form>

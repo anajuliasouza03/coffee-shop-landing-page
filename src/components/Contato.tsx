@@ -4,12 +4,10 @@ import bg from "@/images/xicara.png";
 
 export function Contato() {
   return (
-    <div className="bg-[url('/bg-contact.svg')] p-10  bg-cover bg-no-repeat flex flex-col">
-      <div className="text-4xl text-center text-white">
-        Veja alguns depoimentos de nossos clientes
-      </div>
+    <div className="bg-[#2c1c19] p-10  bg-cover bg-center flex flex-col">
+      <div className="text-4xl text-center text-white">Fale conosco</div>
       <div className=" text-center mx-auto text-white">
-        Quem já visitou, recomenda e conta como foi
+        Tire suas maiores dúvidas com a gente
       </div>
       <div className="flex justify-around py-10 items-center">
         <div>
