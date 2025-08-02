@@ -30,18 +30,21 @@ const Pessoas = [
 export function Depoimentos() {
   return (
     <div
-      className="bg-[url('/bg-comments.svg')] bg-no-repeat bg-cover py-20 min-h-[500px] scroll-mt-[100px]"
+      className="text-[#3E2723] bg-[url('/bg-comments.svg')] bg-no-repeat bg-cover py-20 min-h-[500px] scroll-mt-[100px]"
       id="depoimentos"
     >
-      <div className="text-4xl text-center">
+      <div className="text-4xl text-center px-20 mb-5">
         Veja alguns depoimentos de nossos clientes
       </div>
       <div className=" text-center mx-auto">
         Quem já visitou, recomenda e conta como foi
       </div>
-      <div className="p-15 flex flex-col md:flex-row gap-10 items-center justify-center">
+      <div className="p-15 flex flex-col  md:flex-row gap-10 items-center justify-center">
         {Pessoas.map((item, index) => (
-          <div key={index} className="bg-[#F6EDE2] rounded-4xl p-4 w-100 ">
+          <div
+            key={index}
+            className="bg-[#F6EDE2] rounded-4xl p-4 w-full h-[280px]"
+          >
             <div className="flex gap-5 items-center px-5">
               <Image
                 alt="user-comentario"

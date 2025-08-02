@@ -8,7 +8,7 @@ export function Video() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
-        className="rounded-4xl mx-auto mb-10 w-[450px] md:w-[600px] h-[350px] md:h-[460px]"
+        className="rounded-4xl w-[400px] mx-auto mb-10 md:mb-0 md:mr-5  md:w-[500px] h-[350px] md:h-[460px]"
       ></iframe>
     </div>
   );

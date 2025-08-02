@@ -7,7 +7,7 @@ export function Escolha() {
       className=" py-10 min-h-[800px] bg-[#FAFBFD] md:px-20 justify-center md:flex scroll-mt-[100px]"
       id="diferenciais"
     >
-      <div className="m-10 md:pr-5 my-auto">
+      <div className=" md:pr-5 my-auto">
         <Video />
       </div>
       <div className="text-[#3E2723] mx-10 md:mx-0  flex flex-col justify-center">

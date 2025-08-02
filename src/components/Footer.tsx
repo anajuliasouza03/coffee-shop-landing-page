@@ -8,12 +8,12 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 export function Footer() {
   return (
     <div>
-      <div className="bg-[#130c0b] flex p-20 justify-around">
+      <div className="bg-[#130c0b] flex p-20 justify-around gap-6 md:gap-0">
         <div className="flex flex-col gap-5 justify-center items-center">
           <Image
             alt="logo"
             src={logo}
-            className="rounded-full bg-[#D9BB98] p-3"
+            className="rounded-full bg-[#D9BB98] p-3 w-20 md:w-40"
           />
           <p className="text-center text-[#D9BB98] max-w-50">
             Copyright © 2024 Solace Cafeteria All Rights Reserved{" "}
