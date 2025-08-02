@@ -29,7 +29,10 @@ const Pessoas = [
 
 export function Depoimentos() {
   return (
-    <div className="bg-[url('/bg-comments.svg')] bg-no-repeat bg-cover py-20 min-h-[500px]">
+    <div
+      className="bg-[url('/bg-comments.svg')] bg-no-repeat bg-cover py-20 min-h-[500px] scroll-mt-[100px]"
+      id="depoimentos"
+    >
       <div className="text-4xl text-center">
         Veja alguns depoimentos de nossos clientes
       </div>

@@ -3,8 +3,11 @@ import { Video } from "./Video";
 
 export function Escolha() {
   return (
-    <div className=" py-10 md:flex min-h-[800px] bg-[#FAFBFD] md:px-20">
-      <div className="m-10 my-auto mx-auto md:pr-10">
+    <div
+      className=" py-10 min-h-[800px] bg-[#FAFBFD] md:px-20 justify-center md:flex scroll-mt-[100px]"
+      id="diferenciais"
+    >
+      <div className="m-10 md:pr-5 my-auto">
         <Video />
       </div>
       <div className="text-[#3E2723] mx-10 md:mx-0  flex flex-col justify-center">

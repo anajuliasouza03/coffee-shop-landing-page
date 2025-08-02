@@ -120,23 +120,11 @@ export function Cardapio() {
     },
   });
 
-  function scrollPrev() {
-    emplaApi?.scrollPrev();
-  }
-  function scrollPrev2() {
-    emplaApi2?.scrollPrev();
-  }
-
-  function scrollNext() {
-    emplaApi?.scrollNext();
-  }
-
-  function scrollNext2() {
-    emplaApi2?.scrollNext();
-  }
-
   return (
-    <div className="flex flex-col items-center min-h-[800px]  bg-[#FAFBFD] px-5 md:px-20">
+    <div
+      className="flex flex-col items-center min-h-[800px]  bg-[#FAFBFD] px-5 md:px-20 scroll-mt-[100px]"
+      id="cardapio"
+    >
       <h1 className="text-[36px] text-[#3e2723] mb-5">
         Explore nosso Cardápio
       </h1>
@@ -163,18 +151,6 @@ export function Cardapio() {
             ))}
           </div>
         </div>
-        <button
-          onClick={scrollPrev}
-          className=" bg-gray-200 shadow-lg rounded-full cursor-pointer flex items-center justify-center absolute left-1 -translate-y-[160px] -translate-x-[3px]"
-        >
-          <ChevronLeft className="w-6 h-6  text-gray-600 " />
-        </button>
-        <button
-          onClick={scrollNext}
-          className=" bg-gray-300 shadow-lg rounded-full cursor-pointer flex items-center justify-center absolute right-0 -translate-y-[160px] -translate-x-[3px]"
-        >
-          <ChevronRight className="w-6 h-6  text-gray-600 " />
-        </button>
       </div>
       <div className="relative w-full overflow-hidden mb-5">
         <div className="w-full" ref={embraRef2}>
@@ -198,18 +174,6 @@ export function Cardapio() {
             ))}
           </div>
         </div>
-        <button
-          onClick={scrollPrev2}
-          className=" bg-gray-300 shadow-lg rounded-full cursor-pointer flex items-center justify-center absolute left-2 -translate-y-[160px] -translate-x-[3px]"
-        >
-          <ChevronLeft className="w-6 h-6  text-gray-600 " />
-        </button>
-        <button
-          onClick={scrollNext2}
-          className=" bg-gray-300 shadow-lg rounded-full cursor-pointer flex items-center justify-center absolute right-0 -translate-y-[160px] -translate-x-[3px]"
-        >
-          <ChevronRight className="w-6 h-6  text-gray-600 " />
-        </button>
       </div>
     </div>
   );
